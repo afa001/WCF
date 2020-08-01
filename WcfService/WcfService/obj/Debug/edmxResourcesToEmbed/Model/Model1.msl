@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bdComponenteServiExModelStoreContainer" CdmEntityContainer="bdComponenteServiExEntities">
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="bdComponenteServiExModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DeleteUsuario" FunctionName="bdComponenteServiExModel.Store.DeleteUsuario" />
+    <FunctionImportMapping FunctionImportName="GetUsuario" FunctionName="bdComponenteServiExModel.Store.GetUsuario">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="bdComponenteServiExModel.GetUsuario_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetUsuarioId" FunctionName="bdComponenteServiExModel.Store.GetUsuarioId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="bdComponenteServiExModel.GetUsuarioId_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="InsertUsuario" FunctionName="bdComponenteServiExModel.Store.InsertUsuario" />
+    <FunctionImportMapping FunctionImportName="UpdateUsuario" FunctionName="bdComponenteServiExModel.Store.UpdateUsuario" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,12 @@
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\WcfService.dll.config
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\WcfService.dll
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\WcfService.pdb
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\EntityFramework.dll
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\EntityFramework.SqlServer.dll
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\EntityFramework.xml
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\bin\EntityFramework.SqlServer.xml
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\obj\Debug\WcfService.csproj.CopyComplete
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\obj\Debug\WcfService.dll
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\obj\Debug\WcfService.pdb
+C:\Users\ander\Desktop\AndersonAlarconHernandez\WCF\WcfService\WcfService\obj\Debug\WcfService.csprojAssemblyReference.cache
